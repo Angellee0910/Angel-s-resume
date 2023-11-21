@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;900&display=swap');
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    /* background-color: rgb(223, 237, 237); */
+}
+/* header nav ul {
+    margin: 5px;
+    padding: 5px;
+} */
+
+header nav ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    padding: 5px;
+    border:solid 1px #000;
+    width: 100px;
+    background-color: #ccc;
+    color: #000;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    background-color: #98f1ed;
+    margin-top:3px;
+}
+section#about > p:first-of-type::first-letter {
+    font-size:2em;
+}
+h1 {
+    font-family: 'Josefin Sans';
+    font-weight: 900;
+}
+h2,h3,h4 {
+    font-weight: 400;
+}
+h3,h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+figure {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: 10px inset rgba(90, 123, 244, 0.693);
+    float: left;
+    margin-right: 1.5em;
+    width:440px
+}
+tbody{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+table {
+    border-spacing:0;
+    width:60%;
+    border-top: solid 1px #000;
+    border-left: solid 1px #000;
+}
+
+td,th {
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    line-height: 25px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+thead,
+tfoot {
+    background-color: #ccc;
+    color: #000;
+}
+
+.projecttype{
+    line-height: 35px;
+}
+.projectname {
+    width: 30%;
+}
+
+.city {
+    width: 10%;
+}
+.year {
+    width: 10%;
+}
+
+.projectlist td:first-child {
+    text-align: left;
+}
