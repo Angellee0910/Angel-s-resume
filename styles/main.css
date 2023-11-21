@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;900&display=swap');
+/* 
+global:
+1、font size: 1em
+2、background color: rgb(223, 237, 237)
+*/
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1em;
-    /* background-color: rgb(223, 237, 237); */
+    background-color: rgb(142, 221, 221);
+    width: 100%;
 }
+
+@media (min-width: 1000px) {
+    body {
+      background-color:  rgb(223, 237, 237);
+      width:95%;
+    }
+}
+
 /* header nav ul {
     margin: 5px;
     padding: 5px;
