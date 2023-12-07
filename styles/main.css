@@ -110,3 +110,15 @@ tfoot {
 .projectlist td:first-child {
     text-align: left;
 }
+
+button {
+    width: 100px;
+    height: 30px;
+}
+
+.odd {
+    color:red;
+}
+.even {
+    color:blue;
+}
